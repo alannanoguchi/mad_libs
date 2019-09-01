@@ -1,3 +1,5 @@
 # Sentences
-# Once upon a time there was a (adj) girl. She loved to (verb).
-# One day she was on a walk and met (proper noun). They became (adj) friends.
+
+# I have a __(noun)__ in my pocket.
+# It feels __(adj)__. You can touch it, feed it and __(verb)__ it. When it is happy, it smells __(adj)__.
+# It is best friends with a __(noun)__.
