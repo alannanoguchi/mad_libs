@@ -19,12 +19,12 @@ def insert_words(item):
 
 # Mad Libs:
 def mad_libs():
-    # This is the beginning of Mad libs:
-    print("Welcome.")
+    # This is the beginning of the Mad libs story:
+    print("Welcome!")
 
-    # User is asked to enter in part of speech:
+    # User is asked to enter in appropriate part of speech:
     noun1 = insert_words("Enter a noun: ")
-    # Append the word into the list of word word blanks:
+    # Append the word into the list of word blanks:
     create(noun1)
 
     adjective1 = insert_words("Enter adjective: ")
@@ -39,13 +39,17 @@ def mad_libs():
     noun2 = insert_words("Enter another noun: ")
     create(noun2)
 
+    # Separate the user input from the story:
+    print("----------------------------")
+
     # The story with the Users inserted words:
-    print("I have a " + noun1 + " in my pocket.")
+    print("My Mad Libs Story:")
+    print("I have a(an) " + noun1 + " in my pocket.")
     print("It feels " + adjective1 + ".")
-    print("You can touch it, feels it and " + verb1 + " it.")
-    print(" When it is happy, it smells " + adjective2 + ".")
+    print("You can touch it, feel it and " + verb1 + " it.")
+    print("When it is happy, it smells " + adjective2 + ".")
     print("It is best friends with a " + noun2 + ".")
-    
+    print("The end.")
 
 # Run the Function:
 mad_libs()
