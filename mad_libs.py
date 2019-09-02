@@ -2,7 +2,7 @@
 
 # I have a __(noun)__ in my pocket.
 # It feels __(adj)__.
-# You can touch it, feed it and __(verb)__ it. 
+# You can touch it, feed it and __(verb)__ it.
 # When it is happy, it smells __(adj)__.
 # It is best friends with a __(noun)__.
 
@@ -24,15 +24,15 @@ def mad_libs():
     # This is the beginning of the Mad libs story:
     print("Welcome!")
 
-    # User is asked to enter in appropriate part of speech:
+    # User is asked to enter in appropriate parts of speech:
     noun1 = insert_words("Enter a noun: ")
     # Append the word into the list of word blanks:
     create(noun1)
 
-    adjective1 = insert_words("Enter adjective: ")
+    adjective1 = insert_words("Enter an adjective: ")
     create(adjective1)
 
-    verb1 = insert_words("Enter verb: ")
+    verb1 = insert_words("Enter a verb: ")
     create(verb1)
 
     adjective2 = insert_words("Enter another adjective: ")
@@ -53,5 +53,5 @@ def mad_libs():
     print("It is best friends with a " + noun2 + ".")
     print("The end.")
 
-# Run the Function:
+# Run the Mad Libs Story:
 mad_libs()
